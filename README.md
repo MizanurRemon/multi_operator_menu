@@ -7,6 +7,7 @@ An image has been added in the bar Button Item too. The three buttons are-  
 * Operator  
 * BMI calculator  
 * Calculator
+
 Alert  has been used in BMI calculator. 
 It will show an alert to the user when the variable pass any NIL/NUL value into the function. 
 It will also show the BMI meter to the user. 
