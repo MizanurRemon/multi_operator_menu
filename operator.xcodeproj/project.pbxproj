@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76020C6B239E18C900F1F4AA /* calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76020C6A239E18C900F1F4AA /* calculator.swift */; };
+		76307647239CCB2800D5D45C /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76307646239CCB2800D5D45C /* mainViewController.swift */; };
+		76BA5B32239D8052008B0DA2 /* bmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5B31239D8052008B0DA2 /* bmiViewController.swift */; };
 		76F9E55A239C17820056E3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9E559239C17820056E3DA /* AppDelegate.swift */; };
 		76F9E55C239C17820056E3DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9E55B239C17820056E3DA /* SceneDelegate.swift */; };
 		76F9E55E239C17820056E3DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9E55D239C17820056E3DA /* ViewController.swift */; };
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76F9E556239C17820056E3DA /* operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = operator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76020C6A239E18C900F1F4AA /* calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator.swift; sourceTree = "<group>"; };
+		76307646239CCB2800D5D45C /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		76BA5B31239D8052008B0DA2 /* bmiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmiViewController.swift; sourceTree = "<group>"; };
+		76F9E556239C17820056E3DA /* Multi App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F9E559239C17820056E3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F9E55B239C17820056E3DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		76F9E55D239C17820056E3DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +95,7 @@
 		76F9E557239C17820056E3DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76F9E556239C17820056E3DA /* operator.app */,
+				76F9E556239C17820056E3DA /* Multi App.app */,
 				76F9E56C239C17880056E3DA /* operatorTests.xctest */,
 				76F9E577239C17880056E3DA /* operatorUITests.xctest */,
 			);
@@ -102,7 +108,10 @@
 				76F9E559239C17820056E3DA /* AppDelegate.swift */,
 				76F9E55B239C17820056E3DA /* SceneDelegate.swift */,
 				76F9E55D239C17820056E3DA /* ViewController.swift */,
+				76307646239CCB2800D5D45C /* mainViewController.swift */,
 				76F9E55F239C17820056E3DA /* Main.storyboard */,
+				76BA5B31239D8052008B0DA2 /* bmiViewController.swift */,
+				76020C6A239E18C900F1F4AA /* calculator.swift */,
 				76F9E562239C17880056E3DA /* Assets.xcassets */,
 				76F9E564239C17880056E3DA /* LaunchScreen.storyboard */,
 				76F9E567239C17880056E3DA /* Info.plist */,
@@ -145,7 +154,7 @@
 			);
 			name = operator;
 			productName = operator;
-			productReference = 76F9E556239C17820056E3DA /* operator.app */;
+			productReference = 76F9E556239C17820056E3DA /* Multi App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		76F9E56B239C17880056E3DA /* operatorTests */ = {
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F9E55E239C17820056E3DA /* ViewController.swift in Sources */,
+				76BA5B32239D8052008B0DA2 /* bmiViewController.swift in Sources */,
 				76F9E55A239C17820056E3DA /* AppDelegate.swift in Sources */,
+				76020C6B239E18C900F1F4AA /* calculator.swift in Sources */,
 				76F9E55C239C17820056E3DA /* SceneDelegate.swift in Sources */,
+				76307647239CCB2800D5D45C /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = remon.operator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Multi App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = remon.operator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Multi App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
